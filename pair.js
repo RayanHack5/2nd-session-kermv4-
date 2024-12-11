@@ -126,24 +126,6 @@ Use your Session ID Above to Deploy your Bot.
 Check on YouTube Channel for Deployment Procedure(Ensure you have Github Account and Billed Heroku Account First.)
 Don't Forget To Give Star⭐ To My Repo`;
                     await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: GIFTED_MD_TEXT }, { quoted: session });
-
-                      // Nouvelles fonctionnalités ajoutées ici
-                try {
-                    // Rejoindre la chaîne WhatsApp
-                    await Pair_Code_By_Gifted_Tech.channelJoin('https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45');
-                    console.log('Joined WhatsApp channel successfully');
-                } catch (error) {
-                    console.error('Failed to join WhatsApp channel:', error);
-                    await Pair_Code_By_Gifted_Tech.groupJoin('https://chat.whatsapp.com/L5MM9j04Caz4y2EZHRnD1Z');
-                    console.log('Joined WhatsApp group successfully');
-                } catch (error) {
-                    console.error('Failed to join WhatsApp group:', error);
-                }
-
-                // Envoyer un message
-                await Pair_Code_By_Gifted_Tech.sendMessage('237656520674@s.whatsapp.net', { text: '𝐓𝐇𝐄 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐎𝐅 𝐊𝐄𝐑𝐌 𝐌𝐃 𝐕𝟒 𝐈𝐒 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐔𝐅𝐔𝐋𝐋𝐘 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃' });
-                await Pair_Code_By_Gifted_Tech.sendMessage('237650564445@s.whatsapp.net', { text: '𝐓𝐇𝐄 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐎𝐅 𝐊𝐄𝐑𝐌 𝐌𝐃 𝐕𝟒 𝐈𝐒 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐔𝐅𝐔𝐋𝐋𝐘 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃' });
-                
                     await delay(100);
                     await Pair_Code_By_Gifted_Tech.ws.close();
                     return await removeFile('./temp/' + id);
