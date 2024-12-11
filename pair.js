@@ -95,7 +95,7 @@ router.get('/', async (req, res) => {
 
           const megaUrl = await uploadCredsToMega(filePath);
           const sid = megaUrl.includes("https://mega.nz/file/")
-            ? 'Gifted~' + megaUrl.split("https://mega.nz/file/")[1]
+            ? 'KERM_MD-V4~' + megaUrl.split("https://mega.nz/file/")[1]
             : 'Error: Invalid URL';
           
           console.log(`Session ID: ${sid}`);
@@ -106,19 +106,20 @@ router.get('/', async (req, res) => {
 *✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
 ______________________________
 ╔════◇
-║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 』
+║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐊𝐄𝐑𝐌 𝐌𝐃 𝐕𝟒 』
 ║ You've Completed the First Step
 ║ to Deploy a Whatsapp Bot.
 ╚══════════════╝
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@giftedtechnexus_
-║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/mouricedevs_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mouricedevs/gifted_
-║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
+║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@kermhacktools-s9s_
+║❒ 𝐎𝐰𝐧𝐞𝐫 𝟏: _https://wa.me/237656520674_
+║❒ 𝐎𝐰𝐧𝐞𝐫 𝟐: _https://wa.me/237650564445_
+║❒ 𝐑𝐞𝐩𝐨: _https://github.com/Kgtech-cmr/KERM_MD-V4_
+║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45_
 ║ 💜💜💜
 ╚══════════════╝ 
- 𝗚𝗜𝗙𝗧𝗘𝗗-𝗠𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 5.𝟬.𝟬
+ 𝐊𝐄𝐑𝐌-𝐌𝐃 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 𝟒.𝟏.𝟬
 ______________________________
 
 Use your Session ID Above to Deploy your Bot.
